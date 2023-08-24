@@ -43,7 +43,7 @@ NSString *const AZSCBlobBlockBlob = @"BlockBlob";
 NSString *const AZSCBlobPageBlob = @"PageBlob";
 
 NSInteger const AZSCKilobyte = 1024;
-NSInteger const AZSCMaxBlockSize = 4 * AZSCKilobyte * AZSCKilobyte;
+NSInteger const AZSCMaxBlockSize = (AZSCKilobyte * AZSCKilobyte) / 2;
 NSInteger const AZSCSnapshotIndex = 2;
 
 // Account Settings
